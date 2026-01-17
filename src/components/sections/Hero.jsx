@@ -14,7 +14,7 @@ import RadialGradientBackground from "../backgrounds/RadialGradientBackground.js
 
 const Hero = () => {
     return (
-        <section className=" relative min-h-screen flex items-center bg-black overflow-hidden">
+        <section className=" relative min-h-screen flex items-center justify-center bg-black overflow-hidden">
             <RadialGradientBackground variant="hero" />
 
             {/* Content Container */}
