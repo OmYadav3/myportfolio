@@ -88,7 +88,7 @@ const About = () => {
                                 className="inline-flex items-center gap-3 bg-white hover:bg-white/90 text-black rounded-full px-8 py-4 text-base font-medium transition-all duration-300 w-fit group"
                             >
                                 <Download className="w-5 h-5 group-hover:translate-y-0.5 transition-transform duration-300" />
-                                Download Resume 
+                                Download Resume
                             </button>
                         </FadeIn>
                     </div>
@@ -184,6 +184,32 @@ const About = () => {
                         </div>
                     </FadeIn>
                 </div>
+
+                {/* Skills Section */}
+                <FadeIn delay={500}>
+                    <div className="flex flex-col items-center gap-8">
+                        <div className="text-center">
+                            <h3 className="text-2xl font-normal text-white mb-2">Tech Stack & Expertise</h3>
+                            <p className="text-sm text-white/60 ">
+                                Technologies I work with to build amazing
+                                product
+                            </p>
+                        </div>
+
+                        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6  gap-4 w-full max-w-4xl">
+                            {skills.map((skill, index) => (
+                                <div key={index} className=" group relative bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl p-6 flex flex-col items-center justify-center gap-3 hover:border-primary/50 transition-all duration-300 hover:scale-110">
+                                    <skill.icon className="text-3xl text-primary " />
+
+                                    <div className="text-sm text-white/80 font-medium text-center">{skill.name}</div>
+
+                                    {/* Hover Glow Effect */}
+                                    <div className="absolute insert-0 bg-linear-to-br from-primary/0 to-primary/0 group-hover:from-primary/10 group-hover:tp-primary/10 rounded-2xl transition-all duration-300"></div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </FadeIn>
             </div>
         </section>
     );
