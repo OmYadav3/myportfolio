@@ -5,49 +5,49 @@ export const skills = [
       name: 'React.js',
       icon: 'Code2',
       level: 'Intermediate',
-      experience: '1 years'
+      experience: '1+ years'
    },
    {
       id:2,
-      name: 'Javascript',
+      name: 'JavaScript',
       icon: 'FileCode',
-      level: 'Expert',
-      experience: '1 years'
+      level: 'Advanced',
+      experience: '1+ years'
    },
    {
       id:3,
-      name: 'Tpescript.js',
+      name: 'TypeScript',
       icon: 'FileType',
-      level: 'Basic',
-      experience: '1 month'
+      level: 'Intermediate',
+      experience: '3 months'
    },
    {
       id:4,
       name: 'Next.js',
       icon: 'Zap',
-      level: 'Basic',
-      experience: '3 months'
+      level: 'Intermediate',
+      experience: '6 months'
    },
    {
       id:5,
-      name: 'TailwinCSS.js',
+      name: 'Tailwind CSS',
       icon: 'Palette',
-      level: 'Expert',
-      experience: '1 years'
+      level: 'Advanced',
+      experience: '1+ years'
    },
    {
       id:6,
       name: 'Node.js',
       icon: 'Server',
-      level: 'Moderate',
-      experience: '1 years'
+      level: 'Advanced',
+      experience: '1+ years'
    },
    {
       id:7,
-      name: 'Git & Gtihub',
+      name: 'Git & GitHub',
       icon: 'GitBranch',
-      level: 'Moderate',
-      experience: '1 years'
+      level: 'Advanced',
+      experience: '1+ years'
    },
    {
       id:8,
@@ -60,14 +60,14 @@ export const skills = [
       id:9,
       name: 'REST APIs',
       icon: 'Globe',
-      level: 'Advance',
-      experience: '1 years'
+      level: 'Advanced',
+      experience: '1+ years'
    },
    {
       id:10,
       name: 'Responsive Design',
       icon: 'Smartphone',
-      level: 'Intermediate',
+      level: 'Advanced',
       experience: '1+ years'
    },
    {
@@ -82,6 +82,6 @@ export const skills = [
       name: 'Vite',
       icon: 'Rocket',
       level: 'Intermediate',
-      experience: '1 years'
+      experience: '1+ years'
    },
 ];
