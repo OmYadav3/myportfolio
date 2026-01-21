@@ -39,7 +39,7 @@ const Skills = () => {
     // Get level color
     const getLevelColor = (level) => {
         const colors = {
-            Expert: "text-[#8DFF69] bg-[#8DFF69/20 border-[#8DFF69/30]",
+            Expert: "text-[#8DFF69] bg-[#8DFF69]/20 border-[#8DFF69/30]",
             Advanced: "text-cyan-400 bg-cyan-500/20 border-cyan-500/30",
             Intermediate:
                 "text-emerald-400 bg-emerald-500/20 border-emerald-500/30",
