@@ -58,8 +58,8 @@ const Skills = () => {
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <FadeIn delay={100}>
                     <div className="text-center mb-16">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">
-                            <Icons.Sparkles className="w-4 h-4 text-primary mb-4" />
+                        <div className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">
+                            <Icons.Sparkles className="w-4 h-4 text-primary" />
                             <span className="text-sm text-primary font-medium">My Expertise</span>
                         </div>
                         <h2 className="text-4xl lg:text-5xl font-normal text-white mb-4">Skills & Technologies</h2>

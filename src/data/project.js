@@ -84,4 +84,4 @@ export const projects = [
 ];
 
 
-export const category = ['All', 'Web Apps', 'UI Components', 'Full Stack'];
+export const categories = ['All', 'Web Apps', 'UI Components', 'Full Stack'];
