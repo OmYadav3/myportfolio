@@ -58,6 +58,7 @@ const Projects = () => {
     const categoryIcons = {
         "All": Target,
         "Web Apps": Globe,
+        "Backend APIs": Globe,
         "UI Components": Palette,
         "Full Stack": Zap,
     };

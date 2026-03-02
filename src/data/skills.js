@@ -19,7 +19,7 @@ export const skills = [
       name: 'TypeScript',
       icon: 'FileType',
       level: 'Intermediate',
-      experience: '3 months'
+      experience: '6 months'
    },
    {
       id:4,
@@ -54,7 +54,7 @@ export const skills = [
       name: 'Redux',
       icon: 'Database',
       level: 'Intermediate',
-      experience: '4 months'
+      experience: '1 years'
    },
    {
       id:9,
