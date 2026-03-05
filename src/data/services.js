@@ -19,7 +19,7 @@ export const services = [
    },
    {
       id: 4,
-      icon: 'Code-2',
+      icon: 'Code2',
       title: 'Custom Components',
       description: 'Developing reusable, modular UI components and design systems that improve consistency, performance, and development speed across projects.'
    },
