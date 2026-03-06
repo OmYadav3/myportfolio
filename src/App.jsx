@@ -1,3 +1,4 @@
+import { Contact } from 'lucide-react'
 import Navbar from './components/layout/Navbar'
 import About from './components/sections/About'
 import Hero from './components/sections/Hero'
@@ -15,6 +16,7 @@ const App = () => {
         <Skills/>
         <Projects/>
         <Services/>
+        <Contact/>
       </main>
     </div>
   )
